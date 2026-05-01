@@ -1,57 +1,200 @@
 {
     "2013": {
-        "hombres": 500000,
-        "mujeres": 520000,
-        "total": 1020000
+        "hombres": {
+            "grupo_1": 80000,
+            "grupo_2": 90000,
+            "grupo_3": 85000,
+            "grupo_4": 75000,
+            "grupo_5": 60000,
+            "grupo_6": 50000
+        },
+        "mujeres": {
+            "grupo_1": 82000,
+            "grupo_2": 92000,
+            "grupo_3": 87000,
+            "grupo_4": 77000,
+            "grupo_5": 62000,
+            "grupo_6": 52000
+        }
     },
     "2014": {
-        "hombres": 505000,
-        "mujeres": 525000,
-        "total": 1030000
+        "hombres": {
+            "grupo_1": 81000,
+            "grupo_2": 91000,
+            "grupo_3": 86000,
+            "grupo_4": 76000,
+            "grupo_5": 61000,
+            "grupo_6": 51000
+        },
+        "mujeres": {
+            "grupo_1": 83000,
+            "grupo_2": 93000,
+            "grupo_3": 88000,
+            "grupo_4": 78000,
+            "grupo_5": 63000,
+            "grupo_6": 53000
+        }
     },
     "2015": {
-        "hombres": 510000,
-        "mujeres": 530000,
-        "total": 1040000
+        "hombres": {
+            "grupo_1": 82000,
+            "grupo_2": 92000,
+            "grupo_3": 87000,
+            "grupo_4": 77000,
+            "grupo_5": 62000,
+            "grupo_6": 52000
+        },
+        "mujeres": {
+            "grupo_1": 84000,
+            "grupo_2": 94000,
+            "grupo_3": 89000,
+            "grupo_4": 79000,
+            "grupo_5": 64000,
+            "grupo_6": 54000
+        }
     },
     "2016": {
-        "hombres": 515000,
-        "mujeres": 535000,
-        "total": 1050000
+        "hombres": {
+            "grupo_1": 83000,
+            "grupo_2": 93000,
+            "grupo_3": 88000,
+            "grupo_4": 78000,
+            "grupo_5": 63000,
+            "grupo_6": 53000
+        },
+        "mujeres": {
+            "grupo_1": 85000,
+            "grupo_2": 95000,
+            "grupo_3": 90000,
+            "grupo_4": 80000,
+            "grupo_5": 65000,
+            "grupo_6": 55000
+        }
     },
     "2017": {
-        "hombres": 520000,
-        "mujeres": 540000,
-        "total": 1060000
+        "hombres": {
+            "grupo_1": 84000,
+            "grupo_2": 94000,
+            "grupo_3": 89000,
+            "grupo_4": 79000,
+            "grupo_5": 64000,
+            "grupo_6": 54000
+        },
+        "mujeres": {
+            "grupo_1": 86000,
+            "grupo_2": 96000,
+            "grupo_3": 91000,
+            "grupo_4": 81000,
+            "grupo_5": 66000,
+            "grupo_6": 56000
+        }
     },
     "2018": {
-        "hombres": 525000,
-        "mujeres": 545000,
-        "total": 1070000
+        "hombres": {
+            "grupo_1": 85000,
+            "grupo_2": 95000,
+            "grupo_3": 90000,
+            "grupo_4": 80000,
+            "grupo_5": 65000,
+            "grupo_6": 55000
+        },
+        "mujeres": {
+            "grupo_1": 87000,
+            "grupo_2": 97000,
+            "grupo_3": 92000,
+            "grupo_4": 82000,
+            "grupo_5": 67000,
+            "grupo_6": 57000
+        }
     },
     "2019": {
-        "hombres": 530000,
-        "mujeres": 550000,
-        "total": 1080000
+        "hombres": {
+            "grupo_1": 86000,
+            "grupo_2": 96000,
+            "grupo_3": 91000,
+            "grupo_4": 81000,
+            "grupo_5": 66000,
+            "grupo_6": 56000
+        },
+        "mujeres": {
+            "grupo_1": 88000,
+            "grupo_2": 98000,
+            "grupo_3": 93000,
+            "grupo_4": 83000,
+            "grupo_5": 68000,
+            "grupo_6": 58000
+        }
     },
     "2020": {
-        "hombres": 528000,
-        "mujeres": 548000,
-        "total": 1076000
+        "hombres": {
+            "grupo_1": 85500,
+            "grupo_2": 95500,
+            "grupo_3": 90500,
+            "grupo_4": 80500,
+            "grupo_5": 65500,
+            "grupo_6": 55500
+        },
+        "mujeres": {
+            "grupo_1": 87500,
+            "grupo_2": 97500,
+            "grupo_3": 92500,
+            "grupo_4": 82500,
+            "grupo_5": 67500,
+            "grupo_6": 57500
+        }
     },
     "2021": {
-        "hombres": 532000,
-        "mujeres": 552000,
-        "total": 1084000
+        "hombres": {
+            "grupo_1": 86500,
+            "grupo_2": 96500,
+            "grupo_3": 91500,
+            "grupo_4": 81500,
+            "grupo_5": 66500,
+            "grupo_6": 56500
+        },
+        "mujeres": {
+            "grupo_1": 88500,
+            "grupo_2": 98500,
+            "grupo_3": 93500,
+            "grupo_4": 83500,
+            "grupo_5": 68500,
+            "grupo_6": 58500
+        }
     },
     "2022": {
-        "hombres": 537000,
-        "mujeres": 557000,
-        "total": 1094000
+        "hombres": {
+            "grupo_1": 87500,
+            "grupo_2": 97500,
+            "grupo_3": 92500,
+            "grupo_4": 82500,
+            "grupo_5": 67500,
+            "grupo_6": 57500
+        },
+        "mujeres": {
+            "grupo_1": 89500,
+            "grupo_2": 99500,
+            "grupo_3": 94500,
+            "grupo_4": 84500,
+            "grupo_5": 69500,
+            "grupo_6": 59500
+        }
     },
     "2023": {
-        "hombres": 540000,
-        "mujeres": 560000,
-        "total": 1100000
+        "hombres": {
+            "grupo_1": 88000,
+            "grupo_2": 98000,
+            "grupo_3": 93000,
+            "grupo_4": 83000,
+            "grupo_5": 68000,
+            "grupo_6": 58000
+        },
+        "mujeres": {
+            "grupo_1": 90000,
+            "grupo_2": 100000,
+            "grupo_3": 95000,
+            "grupo_4": 85000,
+            "grupo_5": 70000,
+            "grupo_6": 60000
+        }
     }
 }
