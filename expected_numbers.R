@@ -8,10 +8,10 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 set.seed(42)
 
 #### Load in data ####
-registros <- read_csv("../Generated_Data/registros.csv")
+registros <- read_csv("./mortalidad_filtrada.csv")
 
 # Población desde JSON
-pop_json <- fromJSON("../Generated_Data/population.json")
+pop_json <- fromJSON("./population_by_gender.json")
 pop_data <- bind_rows(lapply(names(pop_json), function(yr) {
   data.frame(
     year       = as.integer(yr),
@@ -23,8 +23,7 @@ pop_data <- bind_rows(lapply(names(pop_json), function(yr) {
 codigos_relevantes <- c(
   'J13X', 'J15', 'J154', 'J158', 'J159', 'J17', 'J170', 'J178',
   'J18', 'J182', 'J188', 'J189', 'J440', 'J850', 'J851',
-  'G001', 'G009',
-  'A403', 'A409', 'A419'
+  'G001', 'G009', 'A403', 'A409', 'A419'
 )
 
 causa_cols <- paste0("CAUSA", 1:10)
@@ -207,7 +206,7 @@ acm_monthly_predictions_hist <- exp_obs_bymonthyear %>%
   arrange(year, month, sex, age_group)
 
 save(acm_monthly_predictions_hist,
-     file = "../Generated_Data/acm_monthly_predictions_tier1_hist.RData")
+     file = "./Generated_Data/acm_monthly_predictions_tier1_hist.RData")
 
 #### Save expecteds for 2020-2023 only ####
 acm_monthly_predictions_tier1 <- pred_grid %>%
@@ -221,4 +220,4 @@ acm_monthly_predictions_tier1 <- pred_grid %>%
   )
 
 save(acm_monthly_predictions_tier1,
-     file = "../Generated_Data/acm_monthly_predictions_tier1.RData")
+     file = "./Generated_Data/acm_monthly_predictions_tier1.RData")
