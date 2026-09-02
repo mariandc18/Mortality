@@ -9,7 +9,7 @@ El script ajusta un **Modelo Aditivo Generalizado (GAM)** con familia **Binomial
 ## Causas de muerte incluidas
 
 - **Neumonía** — `J13X`, `J15`, `J154`, `J158`, `J159`, `J17`, `J170`, `J178`, `J18`, `J182`, `J188`, `J189`, `J850`, `J851`, `J440`
-- **Meningitis bacteriana** — `G001`, `G009`
+- **Meningitis** — `G001`, `G009`
 - **Sepsis** — `A403`, `A409`, `A419`
 
 ---
