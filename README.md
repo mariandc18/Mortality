@@ -40,7 +40,7 @@ observed ~ s(year, k) + s(month, bs="cc", k) + sex + age_group + offset(log(popu
 ### Componentes del modelo
 
 - **`s(year)`** — spline suavizado sobre el año, captura la tendencia secular de la mortalidad
-- **`s(month, bs="cc")`** — spline cíclico sobre el mes, captura la estacionalidad (el spline cíclico garantiza continuidad entre diciembre y enero)
+- **`s(month, bs="cc")`** — spline cíclico sobre el mes, captura la estacionalidad
 - **`sex` y `age_group`** — efectos fijos por sexo y grupo de edad
 - **`offset(log(population))`** — ajuste por el tamaño poblacional
 
